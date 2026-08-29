@@ -1,0 +1,310 @@
+{
+  "name": "@misaki-studio/9775d5a8-e10c-4b5b-aa9e-6ccddf015b3b",
+  "version": "2026.1.8-2",
+  "type": "commonjs",
+  "scripts": {
+    "build": "webpack",
+    "upload": "npm publish"
+  },
+  "files": [
+    "./dist"
+  ],
+  "dependencies": {
+    "misaki-studio-internal": "0.1.52",
+    "@types/lodash": "4.14.202",
+    "axios": "0.25.0",
+    "joi": "18.0.1",
+    "lodash": "4.17.21",
+    "styled-components": "6.1.11",
+    "use-immer": "0.9.0"
+  },
+  "peerDependencies": {
+    "react": ">=18.2.0",
+    "react-dom": ">=18.2.0",
+    "next": ">=15.5.4"
+  },
+  "devDependencies": {
+    "ts-declaration-webpack-plugin": "1.2.3",
+    "mini-css-extract-plugin": "2.9.4",
+    "webpack": "5.103.0",
+    "webpack-cli": "6.0.1",
+    "postcss": "8.3.6",
+    "style-loader": "4.0.0",
+    "sass-loader": "16.0.6",
+    "css-loader": "7.1.2",
+    "@types/node": "25.0.3",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "globals": "17.0.0",
+    "typescript": "5.9.3",
+    "typescript-eslint": "^8.46.4",
+    "sass": "1.97.1"
+  },
+  "exports": {
+    "./apis/data": {
+      "types": "./dist/apis/data.d.ts",
+      "require": "./dist/apis/data.ejs.js",
+      "import": "./dist/apis/data.cjs.js",
+      "default": "./dist/apis/data.cjs.js"
+    },
+    "./apis/ok": {
+      "types": "./dist/apis/ok.d.ts",
+      "require": "./dist/apis/ok.ejs.js",
+      "import": "./dist/apis/ok.cjs.js",
+      "default": "./dist/apis/ok.cjs.js"
+    },
+    "./design-system/colors": {
+      "types": "./dist/design-system/colors.d.ts",
+      "require": "./dist/design-system/colors.ejs.js",
+      "import": "./dist/design-system/colors.cjs.js",
+      "default": "./dist/design-system/colors.cjs.js"
+    },
+    "./design-system/images": {
+      "types": "./dist/design-system/images.d.ts",
+      "require": "./dist/design-system/images.ejs.js",
+      "import": "./dist/design-system/images.cjs.js",
+      "default": "./dist/design-system/images.cjs.js"
+    },
+    "./design-system/themes": {
+      "types": "./dist/design-system/themes.d.ts",
+      "require": "./dist/design-system/themes.ejs.js",
+      "import": "./dist/design-system/themes.cjs.js",
+      "default": "./dist/design-system/themes.cjs.js"
+    },
+    "./documents/ex": {
+      "types": "./dist/documents/ex.d.ts",
+      "require": "./dist/documents/ex.ejs.js",
+      "import": "./dist/documents/ex.cjs.js",
+      "default": "./dist/documents/ex.cjs.js"
+    },
+    "./documents/ok": {
+      "types": "./dist/documents/ok.d.ts",
+      "require": "./dist/documents/ok.ejs.js",
+      "import": "./dist/documents/ok.cjs.js",
+      "default": "./dist/documents/ok.cjs.js"
+    },
+    "./documents/test": {
+      "types": "./dist/documents/test.d.ts",
+      "require": "./dist/documents/test.ejs.js",
+      "import": "./dist/documents/test.cjs.js",
+      "default": "./dist/documents/test.cjs.js"
+    },
+    "./pages/blog": {
+      "types": "./dist/pages/blog.d.ts",
+      "require": "./dist/pages/blog.ejs.js",
+      "import": "./dist/pages/blog.cjs.js",
+      "default": "./dist/pages/blog.cjs.js"
+    },
+    "./pages/course": {
+      "types": "./dist/pages/course.d.ts",
+      "require": "./dist/pages/course.ejs.js",
+      "import": "./dist/pages/course.cjs.js",
+      "default": "./dist/pages/course.cjs.js"
+    },
+    "./pages/documents": {
+      "types": "./dist/pages/documents.d.ts",
+      "require": "./dist/pages/documents.ejs.js",
+      "import": "./dist/pages/documents.cjs.js",
+      "default": "./dist/pages/documents.cjs.js"
+    },
+    "./pages/index": {
+      "types": "./dist/pages/index.d.ts",
+      "require": "./dist/pages/index.ejs.js",
+      "import": "./dist/pages/index.cjs.js",
+      "default": "./dist/pages/index.cjs.js"
+    },
+    "./settings/environment": {
+      "types": "./dist/settings/environment.d.ts",
+      "require": "./dist/settings/environment.ejs.js",
+      "import": "./dist/settings/environment.cjs.js",
+      "default": "./dist/settings/environment.cjs.js"
+    },
+    "./components/atoms/button": {
+      "types": "./dist/components/atoms/button.d.ts",
+      "require": "./dist/components/atoms/button.ejs.js",
+      "import": "./dist/components/atoms/button.cjs.js",
+      "default": "./dist/components/atoms/button.cjs.js"
+    },
+    "./components/templates/blogwrapper": {
+      "types": "./dist/components/templates/blogwrapper.d.ts",
+      "require": "./dist/components/templates/blogwrapper.ejs.js",
+      "import": "./dist/components/templates/blogwrapper.cjs.js",
+      "default": "./dist/components/templates/blogwrapper.cjs.js"
+    },
+    "./components/templates/coursewrapper": {
+      "types": "./dist/components/templates/coursewrapper.d.ts",
+      "require": "./dist/components/templates/coursewrapper.ejs.js",
+      "import": "./dist/components/templates/coursewrapper.cjs.js",
+      "default": "./dist/components/templates/coursewrapper.cjs.js"
+    },
+    "./components/templates/templatesettings": {
+      "types": "./dist/components/templates/templatesettings.d.ts",
+      "require": "./dist/components/templates/templatesettings.ejs.js",
+      "import": "./dist/components/templates/templatesettings.cjs.js",
+      "default": "./dist/components/templates/templatesettings.cjs.js"
+    },
+    "./documents/course/example": {
+      "types": "./dist/documents/course/example.d.ts",
+      "require": "./dist/documents/course/example.ejs.js",
+      "import": "./dist/documents/course/example.cjs.js",
+      "default": "./dist/documents/course/example.cjs.js"
+    },
+    "./documents/course/introduction": {
+      "types": "./dist/documents/course/introduction.d.ts",
+      "require": "./dist/documents/course/introduction.ejs.js",
+      "import": "./dist/documents/course/introduction.cjs.js",
+      "default": "./dist/documents/course/introduction.cjs.js"
+    },
+    "./components/molecules/blog/content": {
+      "types": "./dist/components/molecules/blog/content.d.ts",
+      "require": "./dist/components/molecules/blog/content.ejs.js",
+      "import": "./dist/components/molecules/blog/content.cjs.js",
+      "default": "./dist/components/molecules/blog/content.cjs.js"
+    },
+    "./components/molecules/blog/item": {
+      "types": "./dist/components/molecules/blog/item.d.ts",
+      "require": "./dist/components/molecules/blog/item.ejs.js",
+      "import": "./dist/components/molecules/blog/item.cjs.js",
+      "default": "./dist/components/molecules/blog/item.cjs.js"
+    },
+    "./components/molecules/component/item": {
+      "types": "./dist/components/molecules/component/item.d.ts",
+      "require": "./dist/components/molecules/component/item.ejs.js",
+      "import": "./dist/components/molecules/component/item.cjs.js",
+      "default": "./dist/components/molecules/component/item.cjs.js"
+    },
+    "./components/molecules/component/libreryswitch": {
+      "types": "./dist/components/molecules/component/libreryswitch.d.ts",
+      "require": "./dist/components/molecules/component/libreryswitch.ejs.js",
+      "import": "./dist/components/molecules/component/libreryswitch.cjs.js",
+      "default": "./dist/components/molecules/component/libreryswitch.cjs.js"
+    },
+    "./components/molecules/component/list": {
+      "types": "./dist/components/molecules/component/list.d.ts",
+      "require": "./dist/components/molecules/component/list.ejs.js",
+      "import": "./dist/components/molecules/component/list.cjs.js",
+      "default": "./dist/components/molecules/component/list.cjs.js"
+    },
+    "./components/molecules/npm/main": {
+      "types": "./dist/components/molecules/npm/main.d.ts",
+      "require": "./dist/components/molecules/npm/main.ejs.js",
+      "import": "./dist/components/molecules/npm/main.cjs.js",
+      "default": "./dist/components/molecules/npm/main.cjs.js"
+    },
+    "./components/molecules/website/main": {
+      "types": "./dist/components/molecules/website/main.d.ts",
+      "require": "./dist/components/molecules/website/main.ejs.js",
+      "import": "./dist/components/molecules/website/main.cjs.js",
+      "default": "./dist/components/molecules/website/main.cjs.js"
+    },
+    "./components/molecules/welcome/cannotplay": {
+      "types": "./dist/components/molecules/welcome/cannotplay.d.ts",
+      "require": "./dist/components/molecules/welcome/cannotplay.ejs.js",
+      "import": "./dist/components/molecules/welcome/cannotplay.cjs.js",
+      "default": "./dist/components/molecules/welcome/cannotplay.cjs.js"
+    },
+    "./components/molecules/welcome/main": {
+      "types": "./dist/components/molecules/welcome/main.d.ts",
+      "require": "./dist/components/molecules/welcome/main.ejs.js",
+      "import": "./dist/components/molecules/welcome/main.cjs.js",
+      "default": "./dist/components/molecules/welcome/main.cjs.js"
+    },
+    "./components/molecules/welcome/tutorial": {
+      "types": "./dist/components/molecules/welcome/tutorial.d.ts",
+      "require": "./dist/components/molecules/welcome/tutorial.ejs.js",
+      "import": "./dist/components/molecules/welcome/tutorial.cjs.js",
+      "default": "./dist/components/molecules/welcome/tutorial.cjs.js"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "apis/data": [
+        "./dist/apis/data.d.ts"
+      ],
+      "apis/ok": [
+        "./dist/apis/ok.d.ts"
+      ],
+      "design-system/colors": [
+        "./dist/design-system/colors.d.ts"
+      ],
+      "design-system/images": [
+        "./dist/design-system/images.d.ts"
+      ],
+      "design-system/themes": [
+        "./dist/design-system/themes.d.ts"
+      ],
+      "documents/ex": [
+        "./dist/documents/ex.d.ts"
+      ],
+      "documents/ok": [
+        "./dist/documents/ok.d.ts"
+      ],
+      "documents/test": [
+        "./dist/documents/test.d.ts"
+      ],
+      "pages/blog": [
+        "./dist/pages/blog.d.ts"
+      ],
+      "pages/course": [
+        "./dist/pages/course.d.ts"
+      ],
+      "pages/documents": [
+        "./dist/pages/documents.d.ts"
+      ],
+      "pages/index": [
+        "./dist/pages/index.d.ts"
+      ],
+      "settings/environment": [
+        "./dist/settings/environment.d.ts"
+      ],
+      "components/atoms/button": [
+        "./dist/components/atoms/button.d.ts"
+      ],
+      "components/templates/blogwrapper": [
+        "./dist/components/templates/blogwrapper.d.ts"
+      ],
+      "components/templates/coursewrapper": [
+        "./dist/components/templates/coursewrapper.d.ts"
+      ],
+      "components/templates/templatesettings": [
+        "./dist/components/templates/templatesettings.d.ts"
+      ],
+      "documents/course/example": [
+        "./dist/documents/course/example.d.ts"
+      ],
+      "documents/course/introduction": [
+        "./dist/documents/course/introduction.d.ts"
+      ],
+      "components/molecules/blog/content": [
+        "./dist/components/molecules/blog/content.d.ts"
+      ],
+      "components/molecules/blog/item": [
+        "./dist/components/molecules/blog/item.d.ts"
+      ],
+      "components/molecules/component/item": [
+        "./dist/components/molecules/component/item.d.ts"
+      ],
+      "components/molecules/component/libreryswitch": [
+        "./dist/components/molecules/component/libreryswitch.d.ts"
+      ],
+      "components/molecules/component/list": [
+        "./dist/components/molecules/component/list.d.ts"
+      ],
+      "components/molecules/npm/main": [
+        "./dist/components/molecules/npm/main.d.ts"
+      ],
+      "components/molecules/website/main": [
+        "./dist/components/molecules/website/main.d.ts"
+      ],
+      "components/molecules/welcome/cannotplay": [
+        "./dist/components/molecules/welcome/cannotplay.d.ts"
+      ],
+      "components/molecules/welcome/main": [
+        "./dist/components/molecules/welcome/main.d.ts"
+      ],
+      "components/molecules/welcome/tutorial": [
+        "./dist/components/molecules/welcome/tutorial.d.ts"
+      ]
+    }
+  }
+}
